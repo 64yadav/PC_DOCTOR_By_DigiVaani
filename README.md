@@ -4,6 +4,7 @@
 
 <br>
 
+![Version](https://img.shields.io/badge/version-1.0-6C47FF?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-00C853?style=for-the-badge)
@@ -12,7 +13,7 @@
 <br>
 
 **A portable, menu-driven Windows PC health, cleanup & repair tool** — built by
-[**Ranjeet Yadav (64yadav)**](https://github.com/64yadav) under the **DigiVaani64** brand.
+[**64yadav**](https://github.com/64yadav) under the **DigiVaani64** brand.
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
@@ -20,7 +21,7 @@
 
 ---
 
-### ⚡ Why this exists
+### ⚡ Why This Exists
 
 Runs as a single `.exe` from a USB pendrive. No installer, no bundled third-party antivirus engine —
 it only drives **Windows' own built-in tools** (Windows Defender, SFC, DISM, PowerShell App-x cmdlets,
@@ -29,19 +30,19 @@ and know **exactly** what it will touch.
 
 <br>
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Features](#-features)
-- [Requirements](#-requirements)
-- [Build the .exe](#️-build-the-exe-yourself)
-- [Admin Rights](#-admin-rights)
-- [Safety Design](#-safety-design)
-- [License](#-license)
-- [Links](#-links)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Build the EXE Yourself](#build-the-exe-yourself)
+- [Admin Rights](#admin-rights)
+- [Safety Design](#safety-design)
+- [License](#license)
+- [Links](#links)
 
 <br>
 
-## 🚀 Features
+## Features
 
 <table>
 <tr><th width="35%">Module</th><th>What it does</th></tr>
@@ -58,7 +59,7 @@ and know **exactly** what it will touch.
 
 <br>
 
-## 💻 Requirements
+## Requirements
 
 - Windows 10 or 11
 - To just **run** the built `.exe`: nothing else — it's fully self-contained
@@ -69,7 +70,7 @@ and know **exactly** what it will touch.
 
 <br>
 
-## 🛠️ Build the .exe yourself
+## Build the EXE Yourself
 
 > Run on a Windows machine — PyInstaller does not reliably cross-build Windows executables from Linux/Mac.
 
@@ -100,7 +101,7 @@ This is completely normal for independently published tools and is **not** a sig
 
 <br>
 
-## 🔐 Admin Rights
+## Admin Rights
 
 Several features (Service Optimizer, DISM, some registry edits) need **Administrator privileges**.
 
@@ -109,7 +110,7 @@ Several features (Service Optimizer, DISM, some registry edits) need **Administr
 
 <br>
 
-## 🛡️ Safety Design
+## Safety Design
 
 - ✅ Nothing destructive runs without a preview + explicit confirmation
 - ✅ Startup and service changes are logged with enough detail to undo them
@@ -118,13 +119,13 @@ Several features (Service Optimizer, DISM, some registry edits) need **Administr
 
 <br>
 
-## 📄 License
+## License
 
 Released under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 <br>
 
-## 🔗 Links
+## Links
 
 <div align="left">
 
