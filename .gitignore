@@ -1,0 +1,13 @@
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime files this tool creates next to itself -- don't commit logs/backups
+DigiVaani_PC_Doctor_log.txt
+digivaani_pcdoctor_actions.json
+digivaani_backup/

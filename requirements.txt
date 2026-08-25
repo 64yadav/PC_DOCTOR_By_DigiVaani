@@ -1,0 +1,14 @@
+# DigiVaani PC Doctor - dependencies
+#
+# tkinter, ctypes, subprocess, threading, winreg, json, webbrowser are all
+# part of the Python standard library on Windows -- nothing to install for
+# those.
+#
+# The only optional third-party package is psutil, used for the detailed
+# System Health Report (CPU / RAM / per-process / disk stats). Without it,
+# the tool still runs -- that one screen just shows less detail.
+psutil>=5.9.0
+
+# Needed only on the machine you BUILD the .exe on, not on the machine
+# that runs it:
+pyinstaller>=6.0.0
