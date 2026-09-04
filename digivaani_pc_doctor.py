@@ -2,11 +2,11 @@
 """
 DigiVaani PC Doctor - GUI Version
 Version : 1.0
-Brand   : DigiVaani64  --  "Seekho. Bado. Digital Bano."
+Brand   : DigiVaani"
 Author  : 64yadav
-Website : https://64yadav.github.io/DigiVaani
-GitHub  : https://github.com/64yadav
-Telegram: https://t.me/DigiVaani   
+WEBSITE = "https://digivaani64-hub.github.io/digivaani/"
+GITHUB = "https://github.com/digivaani64-hub/digivaani"
+TELEGRAM = "https://t.me/DigiVaani"  
 
 """
 
@@ -38,11 +38,11 @@ else:
     CREATE_NO_WINDOW = 0
 
 # ==================== BRANDING ====================
-APP_NAME = "DigiVaani PC Doctor"
+APP_NAME = "PC Doctor by DigiVaani"
 VERSION = "1.0"
-CREATOR = "64yadav"
-WEBSITE = "https://64yadav.github.io/DigiVaani"
-GITHUB = "https://github.com/64yadav"
+CREATOR = "64 Yadav"
+WEBSITE = "https://digivaani64-hub.github.io/digivaani/"
+GITHUB = "https://github.com/digivaani64-hub/digivaani"
 TELEGRAM = "https://t.me/DigiVaani"  
 
 BASE_DIR = Path(sys.executable).parent if getattr(sys, "frozen", False) \
